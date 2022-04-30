@@ -3,14 +3,14 @@
 [![Platform](https://img.shields.io/badge/platform-iOS-blue)](https://developer.apple.com/ios/)
 
 > A non-custodial social wallet for all your web3 journey! Sending crypto is now as easy as sending a message.
->
-> 📲️ App Store — Coming soon
->
-> 🤖 Play Store — Sign up for Android [Fishfood](https://timeless-space.typeform.com/wallet-waitlist?typeform-source=repo) (pre-alpha)
->
-> 🎮 Join the [Discord](https://discord.gg/1wallet) community
->
-> 🐦️ Follow us on [Twitter](https://mobile.twitter.com/1walletxyz)
+
+ 📲️ App Store — Coming soon
+
+ 🤖 Play Store — Sign up for Android [Fishfood](https://timeless-space.typeform.com/wallet-waitlist?typeform-source=repo) (pre-alpha)
+
+ 🎮 Join the [Discord](https://discord.gg/1wallet) community
+
+ 🐦️ Follow us on [Twitter](https://mobile.twitter.com/1walletxyz)
 
 
 # Quick Start
