@@ -1,0 +1,374 @@
+PODS:
+  - Alamofire (5.6.0)
+  - ASCollectionView-SwiftUI (2.1.1):
+    - DifferenceKit (~> 1.1)
+  - Atributika (4.10.1)
+  - BigInt (5.2.0)
+  - Cloudinary (3.2.1):
+    - Cloudinary/ios (= 3.2.1)
+  - Cloudinary/ios (3.2.1)
+  - CollectionViewPagingLayout (1.0.3)
+  - CryptoSwift (1.4.3)
+  - DifferenceKit (1.2.0):
+    - DifferenceKit/Core (= 1.2.0)
+    - DifferenceKit/UIKitExtension (= 1.2.0)
+  - DifferenceKit/Core (1.2.0)
+  - DifferenceKit/UIKitExtension (1.2.0):
+    - DifferenceKit/Core
+  - EFQRCode (6.2.0):
+    - swift_qrcodejs (~> 2.2.2)
+  - EllipticCurveKeyPair (2.0)
+  - Faye (2.2.4):
+    - Starscream (~> 4.0)
+  - FilesProvider (0.26.0)
+  - Firebase/Analytics (8.8.0):
+    - Firebase/Core
+  - Firebase/Core (8.8.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 8.8.0)
+  - Firebase/CoreOnly (8.8.0):
+    - FirebaseCore (= 8.8.0)
+  - Firebase/DynamicLinks (8.8.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 8.8.0)
+  - FirebaseAnalytics (8.8.0):
+    - FirebaseAnalytics/AdIdSupport (= 8.8.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (8.8.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleAppMeasurement (= 8.8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseCore (8.8.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.15.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - FirebaseDynamicLinks (8.8.0):
+    - FirebaseCore (~> 8.0)
+  - FirebaseInstallations (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GetStream (2.2.4):
+    - GetStream/Core (= 2.2.4)
+    - GetStream/Faye (= 2.2.4)
+  - GetStream/Core (2.2.4):
+    - Moya (~> 14.0)
+    - Swime (~> 3.0)
+  - GetStream/Faye (2.2.4):
+    - Faye
+    - GetStream/Core
+  - Giphy (2.1.21):
+    - libwebp
+  - GoogleAppMeasurement (8.8.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.8.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 8.8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (8.8.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - GRDB.swift (5.23.0):
+    - GRDB.swift/standard (= 5.23.0)
+  - GRDB.swift/standard (5.23.0)
+  - Introspect (0.1.3)
+  - Keys (1.0.1)
+  - Kingfisher (7.2.0)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - lottie-ios (3.2.3)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - Navajo-Swift (2.1.0)
+  - Nuke (10.7.1)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
+  - PromisesObjC (2.1.0)
+  - RHLinePlot (0.1.0)
+  - secp256k1.c (0.1.2)
+  - Sentry (7.12.0):
+    - Sentry/Core (= 7.12.0)
+  - Sentry/Core (7.12.0)
+  - SkeletonView (1.29.2)
+  - Starscream (4.0.4)
+  - Stipop (0.3.1)
+  - StreamChat (4.2.0):
+    - Starscream (~> 4.0)
+  - StreamChatUI (4.2.0):
+    - EFQRCode (~> 6.2.0)
+    - Giphy (= 2.1.21)
+    - lottie-ios (= 3.2.3)
+    - Nuke (~> 10.0)
+    - SkeletonView (= 1.29.2)
+    - Stipop (= 0.3.1)
+    - StreamChat (= 4.2.0)
+    - swiftScan
+    - SwiftyGif (~> 5.4.1)
+  - SwiftLint (0.44.0)
+  - SwiftMessages (9.0.5):
+    - SwiftMessages/App (= 9.0.5)
+  - SwiftMessages/App (9.0.5)
+  - SwiftOTP (3.0.0)
+  - SwiftProtobuf (1.18.0)
+  - swiftScan (1.2.1)
+  - SwiftyGif (5.4.3)
+  - Swime (3.0.6)
+  - TimelessWeather (0.0.10)
+  - web3swift (2.6.0):
+    - BigInt (~> 5.2.0)
+    - CryptoSwift (~> 1.4.2)
+    - PromiseKit (~> 6.15.3)
+    - secp256k1.c (~> 0.1)
+    - Starscream (~> 4.0.4)
+  - YouTubePlayer (0.7.2)
+
+DEPENDENCIES:
+  - ASCollectionView-SwiftUI (= 2.1.1)
+  - Atributika (= 4.10.1)
+  - Cloudinary (~> 3.0)
+  - CollectionViewPagingLayout (from `https://github.com/timeless-space/CollectionViewPagingLayout`, commit `bc5d1a26675d58f358bed8f52518caa9862a91f4`)
+  - EFQRCode (= 6.2.0)
+  - EllipticCurveKeyPair (from `https://github.com/agens-no/EllipticCurveKeyPair`, branch `master`)
+  - FilesProvider (= 0.26.0)
+  - Firebase/Analytics (= 8.8.0)
+  - Firebase/DynamicLinks (= 8.8.0)
+  - GetStream (~> 2.0)
+  - GRDB.swift (= 5.23.0)
+  - Introspect (= 0.1.3)
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - Kingfisher (= 7.2.0)
+  - Navajo-Swift (= 2.1.0)
+  - RHLinePlot (~> 0.1.0)
+  - Sentry (= 7.12.0)
+  - StreamChat (from `https://github.com/timeless-space/stream-chat-swift.git`, branch `develop`)
+  - StreamChatUI (from `https://github.com/timeless-space/stream-chat-swift.git`, branch `develop`)
+  - SwiftLint (= 0.44.0)
+  - SwiftMessages (= 9.0.5)
+  - SwiftOTP (= 3.0.0)
+  - SwiftProtobuf (= 1.18.0)
+  - swiftScan (= 1.2.1)
+  - TimelessWeather (from `https://bitbucket.org/teamtimeless/timelessweather/`, branch `master`)
+  - web3swift (from `https://github.com/skywinder/web3swift.git`, branch `develop`)
+  - YouTubePlayer (= 0.7.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ASCollectionView-SwiftUI
+    - Atributika
+    - BigInt
+    - Cloudinary
+    - CryptoSwift
+    - DifferenceKit
+    - EFQRCode
+    - Faye
+    - FilesProvider
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseDynamicLinks
+    - FirebaseInstallations
+    - GetStream
+    - Giphy
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GRDB.swift
+    - Introspect
+    - Kingfisher
+    - libwebp
+    - lottie-ios
+    - Moya
+    - nanopb
+    - Navajo-Swift
+    - Nuke
+    - PromiseKit
+    - PromisesObjC
+    - RHLinePlot
+    - secp256k1.c
+    - Sentry
+    - SkeletonView
+    - Starscream
+    - Stipop
+    - SwiftLint
+    - SwiftMessages
+    - SwiftOTP
+    - SwiftProtobuf
+    - swiftScan
+    - SwiftyGif
+    - Swime
+    - YouTubePlayer
+
+EXTERNAL SOURCES:
+  CollectionViewPagingLayout:
+    :commit: bc5d1a26675d58f358bed8f52518caa9862a91f4
+    :git: https://github.com/timeless-space/CollectionViewPagingLayout
+  EllipticCurveKeyPair:
+    :branch: master
+    :git: https://github.com/agens-no/EllipticCurveKeyPair
+  Keys:
+    :path: Pods/CocoaPodsKeys
+  StreamChat:
+    :branch: develop
+    :git: https://github.com/timeless-space/stream-chat-swift.git
+  StreamChatUI:
+    :branch: develop
+    :git: https://github.com/timeless-space/stream-chat-swift.git
+  TimelessWeather:
+    :branch: master
+    :git: https://bitbucket.org/teamtimeless/timelessweather/
+  web3swift:
+    :branch: develop
+    :git: https://github.com/skywinder/web3swift.git
+
+CHECKOUT OPTIONS:
+  CollectionViewPagingLayout:
+    :commit: bc5d1a26675d58f358bed8f52518caa9862a91f4
+    :git: https://github.com/timeless-space/CollectionViewPagingLayout
+  EllipticCurveKeyPair:
+    :commit: 790bbff451c2cf3b4b41c83e079663a182bac7a2
+    :git: https://github.com/agens-no/EllipticCurveKeyPair
+  StreamChat:
+    :commit: 5e40fc0f867056aa8f524c29f9dc86ea2d23b2cf
+    :git: https://github.com/timeless-space/stream-chat-swift.git
+  StreamChatUI:
+    :commit: 5e40fc0f867056aa8f524c29f9dc86ea2d23b2cf
+    :git: https://github.com/timeless-space/stream-chat-swift.git
+  TimelessWeather:
+    :commit: b5bec2ce11aae07d5c3414432f6d9d6fb7940d0a
+    :git: https://bitbucket.org/teamtimeless/timelessweather/
+  web3swift:
+    :commit: 4b4ab1b38e681e6cb0d137f95945b06149a0b7cf
+    :git: https://github.com/skywinder/web3swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: 0c07058209f211e3d32824f8e0766d7c44ac83b3
+  ASCollectionView-SwiftUI: 4d944307996a5c947254a3ecd3999cd6183d280a
+  Atributika: 47e778507cfb3cd2c996278b0285221a62e97d71
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  Cloudinary: 50fe32a43e0cb9bf30136bb8d37722358fe8b976
+  CollectionViewPagingLayout: cda12fa183e19913441dd5e6c566ba752d21bea2
+  CryptoSwift: a0799ee936271bd2253a006f1e4523df21845000
+  DifferenceKit: 5659c430bb7fe45876fa32ce5cba5d6167f0c805
+  EFQRCode: e93a5776d607c83b1c6c3bce7a86e1b487be48a2
+  EllipticCurveKeyPair: 8c69e5238a6e47243a10a48fbd41dfb19110b22e
+  Faye: 3afe22a923fe04273462ecd639f897a90196e6d5
+  FilesProvider: 2a8ae17d8b9c23a6feadb1308ee638fa31d21065
+  Firebase: 629510f1a9ddb235f3a7c5c8ceb23ba887f0f814
+  FirebaseAnalytics: 5506ea8b867d8423485a84b4cd612d279f7b0b8a
+  FirebaseCore: 98b29e3828f0a53651c363937a7f7d92a19f1ba2
+  FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  FirebaseDynamicLinks: cf76a46274569da2d4491548a39ef35f3c1a992d
+  FirebaseInstallations: 40bd9054049b2eae9a2c38ef1c3dd213df3605cd
+  GetStream: e0bd7ca3108cc9ee99d5d097197962b0c2565982
+  Giphy: 96e473c9ae2db3d543d09df587d89b1651dc3e3e
+  GoogleAppMeasurement: 5ba1164e3c844ba84272555e916d0a6d3d977e91
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GRDB.swift: e4a950fe99d113ea5d24571d49eaae0062303c14
+  Introspect: 2be020f30f084ada52bb4387fff83fa52c5c400e
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
+  Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  Navajo-Swift: 57b93e73efbfbf452433efbff04402de56beff51
+  Nuke: 279f17a599fd1c83cf51de5e0e1f2db143a287b0
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  RHLinePlot: ee1d4c933363f9efc37c1264bf46b7db6aca462a
+  secp256k1.c: db47b726585d80f027423682eb369729e61b3b20
+  Sentry: d2f889ed77bd7f8c51b1934dbabddbc553790630
+  SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  Stipop: 8a03ecd47930c22cb82366d84b9c9146756e26c9
+  StreamChat: 0871bc9e4fa9c354a4384be63fe221d4a665f70a
+  StreamChatUI: 9a8eaf0228059c98a38b4705d8bad2a194e107e6
+  SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
+  SwiftMessages: 9cca50659fa22bb523b4dd2a958d4442e843a354
+  SwiftOTP: ec3848f12a4541f29d96f6a0fe63dcbb8448d96f
+  SwiftProtobuf: c3c12645230d9b09c72267e0de89468c5543bd86
+  swiftScan: 0849e7d7c1c641384767a573ee8cb90b88d1ddd9
+  SwiftyGif: 6c3eafd0ce693cad58bb63d2b2fb9bacb8552780
+  Swime: d7b2c277503b6cea317774aedc2dce05613f8b0b
+  TimelessWeather: fd76b61aa64629850af239026260a15416b66053
+  web3swift: 618f18ad59bda5d228b02ace990de8f4595358ef
+  YouTubePlayer: 2b5f2830d8f9b2cde942083211291e382c9e6bd5
+
+PODFILE CHECKSUM: e0a69c823c4691dec8443d1639290eb28fbf94d6
+
+COCOAPODS: 1.11.2
